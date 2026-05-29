@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarGear.Domain", "StellarGear.Domain\StellarGear.Domain.csproj", "{F7105819-D406-40BD-BFD9-3DB68E0B24F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarGear.Application", "StellarGear.Application\StellarGear.Application.csproj", "{334E37F3-D67B-4B64-B0A6-A38069F7E015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarGear.Infrastructure", "StellarGear.Infrastructure\StellarGear.Infrastructure.csproj", "{3767022E-6A5D-4599-A83D-D8A99292648E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarGear.API", "StellarGear.API\StellarGear.API.csproj", "{BC94B1B2-F6A5-4C44-BB65-86F445EE7E76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7105819-D406-40BD-BFD9-3DB68E0B24F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7105819-D406-40BD-BFD9-3DB68E0B24F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7105819-D406-40BD-BFD9-3DB68E0B24F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7105819-D406-40BD-BFD9-3DB68E0B24F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334E37F3-D67B-4B64-B0A6-A38069F7E015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334E37F3-D67B-4B64-B0A6-A38069F7E015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334E37F3-D67B-4B64-B0A6-A38069F7E015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334E37F3-D67B-4B64-B0A6-A38069F7E015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3767022E-6A5D-4599-A83D-D8A99292648E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3767022E-6A5D-4599-A83D-D8A99292648E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3767022E-6A5D-4599-A83D-D8A99292648E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3767022E-6A5D-4599-A83D-D8A99292648E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC94B1B2-F6A5-4C44-BB65-86F445EE7E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC94B1B2-F6A5-4C44-BB65-86F445EE7E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC94B1B2-F6A5-4C44-BB65-86F445EE7E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC94B1B2-F6A5-4C44-BB65-86F445EE7E76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
