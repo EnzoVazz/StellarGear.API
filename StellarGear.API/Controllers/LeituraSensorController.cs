@@ -13,11 +13,16 @@ public class LeituraSensorController : ControllerBase
 {
     private readonly ILeituraSensorRepository _repository;
     private readonly ITrajeRepository _trajeRepository;
+    private readonly IAlertaEmergenciaRepository _alertaRepository;
 
-    public LeituraSensorController(ILeituraSensorRepository repository, ITrajeRepository trajeRepository)
+    public LeituraSensorController(
+        ILeituraSensorRepository repository, 
+        ITrajeRepository trajeRepository,
+        IAlertaEmergenciaRepository alertaRepository)
     {
         _repository = repository;
         _trajeRepository = trajeRepository;
+        _alertaRepository = alertaRepository;
     }
 
     [HttpGet]
@@ -49,6 +54,21 @@ public class LeituraSensorController : ControllerBase
 
             var leitura = new LeituraSensor(request.IdTraje, request.Temperatura, request.Humidade, request.Batimentos);
             await _repository.AddAsync(leitura);
+        
+            if (leitura.Batimentos > 120 || leitura.Batimentos < 50)
+            {
+                int idMedicoPlantonista = 1; 
+
+                var alerta = new AlertaEmergencia(
+                    idLeitura: leitura.Id, 
+                    idMedico: idMedicoPlantonista, 
+                    descricao: $"ANOMALIA DETECTADA: Batimentos cardíacos críticos! Valor registrado: {leitura.Batimentos} bpm.",
+                    nivelGravidade: "Crítico"
+                );
+
+                await _alertaRepository.AddAsync(alerta);
+            }
+
             var response = new LeituraSensorResponseDTO(leitura.Id, leitura.IdTraje, leitura.Temperatura, leitura.Humidade, leitura.Batimentos, leitura.DataLeitura);
             return CreatedAtAction(nameof(GetById), new { id = leitura.Id }, response);
         }

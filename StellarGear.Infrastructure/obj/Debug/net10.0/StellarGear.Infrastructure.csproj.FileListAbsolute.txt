@@ -15,3 +15,4 @@ C:\Users\enzov\RiderProjects\StellarGear\StellarGear.Infrastructure\obj\Debug\ne
 C:\Users\enzov\RiderProjects\StellarGear\StellarGear.Infrastructure\obj\Debug\net10.0\refint\StellarGear.Infrastructure.dll
 C:\Users\enzov\RiderProjects\StellarGear\StellarGear.Infrastructure\obj\Debug\net10.0\StellarGear.Infrastructure.pdb
 C:\Users\enzov\RiderProjects\StellarGear\StellarGear.Infrastructure\obj\Debug\net10.0\ref\StellarGear.Infrastructure.dll
+C:\Users\enzov\RiderProjects\StellarGear\StellarGear.Infrastructure\obj\Debug\net10.0\StellarGear.Infrastructure.sourcelink.json

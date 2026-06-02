@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StellarGear.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d35a40bb632899ef58e30df5dcde2ab407c0952")]
 [assembly: System.Reflection.AssemblyProductAttribute("StellarGear.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StellarGear.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
