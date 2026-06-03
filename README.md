@@ -42,6 +42,13 @@ A API realiza o gerenciamento de:
 * 📋 Histórico médico
 
 ---
+## 🎬 Demonstração
+
+Assista ao vídeo que demonstra o funcionamento completo do CRUD, navegação e integração com o backend:
+
+👉 **https://youtu.be/eTzWjUEpxKk**
+
+---
 
 # 🏗️ Arquitetura da Solução
 
