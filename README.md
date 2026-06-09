@@ -44,9 +44,15 @@ A API realiza o gerenciamento de:
 ---
 ## 🎬 Demonstração
 
-Assista ao vídeo que demonstra o funcionamento completo do CRUD, navegação e integração com o backend:
+Assista ao vídeo que demonstra o funcionamento completo do projeto:
 
 👉 **https://youtu.be/eTzWjUEpxKk**
+
+
+Vídeo Pitch StellarGear:
+
+👉 **https://youtu.be/b_INSGITNvc**
+
 
 ---
 
